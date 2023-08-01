@@ -1,3 +1,5 @@
+// note this example takes input from user if you want you can predefine values for variables too
+
 #include <conio.h>
 #include <stdio.h>
 
