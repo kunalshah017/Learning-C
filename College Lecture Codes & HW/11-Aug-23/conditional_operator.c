@@ -1,3 +1,6 @@
+// Conditional Operator
+// (condition)? statement1(runs when condition is true) : statement2(runs when condition is false);
+
 #include <stdio.h>
 #include <conio.h>
 
