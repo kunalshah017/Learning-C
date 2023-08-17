@@ -1,0 +1,6 @@
+Student name and seat no
+2 float perform add ,sub, mul, div
+Print triangle format wit h*
+Swap 2 numbers with 3 vars
+Area  of sqare and rectangle 
+Speed of bike take dist and time from user 
