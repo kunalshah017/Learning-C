@@ -1,0 +1,80 @@
+Student name and seat no
+2 float perform add ,sub, mul, div
+Print triangle format wit h*
+Swap 2 numbers with 3 vars
+Area  of sqare and rectangle 
+Speed of bike take dist and time from user 
+
+
+
+
+
+
+6)#include <stdio.h>
+
+int main() {
+    float distance, time, speed;
+    printf("Enter the distance traveled by the bike (in km): ");
+    scanf("%f", &distance);
+    printf("Enter the time taken by the bike (in hours): ");
+    scanf("%f", &time);
+    speed = distance / time;
+    printf("The speed of the bike is %.2f km/h\n", speed);
+    return 0;
+}
+
+5)#include <stdio.h>
+
+int main() {
+    float length, width, area;
+    printf("Enter the length of the rectangle (in cm): ");
+    scanf("%f", &length);
+    printf("Enter the width of the rectangle (in cm): ");
+    scanf("%f", &width);
+    area = length * width;
+    printf("The area of the rectangle is %.2f cm^2\n", area);
+    return 0;
+}
+
+4)
+#include <stdio.h>
+
+int main() {
+    int a, b, temp;
+    printf("Enter the first number: ");
+    scanf("%d", &a);
+    printf("Enter the second number: ");
+    scanf("%d", &b);
+    printf("Before swapping: a = %d, b = %d\n", a, b);
+    temp = a;
+    a = b;
+    b = temp;
+    printf("After swapping: a = %d, b = %d\n", a, b);
+    return 0;
+}
+
+2)#include <stdio.h>
+
+int main() {
+    float a, b;
+    printf("Enter the first number: ");
+    scanf("%f", &a);
+    printf("Enter the second number: ");
+    scanf("%f", &b);
+    printf("Addition: %.2f + %.2f = %.2f\n", a, b, a + b);
+    printf("Subtraction: %.2f - %.2f = %.2f\n", a, b, a - b);
+    printf("Multiplication: %.2f * %.2f = %.2f\n", a, b, a * b);
+    if (b != 0) {
+        printf("Division: %.2f / %.2f = %.2f\n", a, b, a / b);
+    } else {
+        printf("Division by zero is not allowed.\n");
+    }
+    return 0;
+}
+
+
+
+
+
+
+
