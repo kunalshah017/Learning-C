@@ -2,20 +2,22 @@
 #include <stdio.h>
 void main()
 {
-    int n, sum;
+    int n, sum = 0;
 
     printf("Enter a number: ");
     scanf("%d", &n);
 
+    printf("Factors are:\n");
     for (int i = 1; i <= n; i++)
     {
         if (n % i == 0)
         {
+            printf("%d\n", i);
             sum = sum + i;
         }
     }
 
-    sum of factors = % d ", sum);
+    printf("\nSum of factors = % d ", sum);
 
-                     getch();
+    getch();
 }
