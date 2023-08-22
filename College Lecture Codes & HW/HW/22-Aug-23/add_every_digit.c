@@ -10,14 +10,17 @@ void main()
     printf("Enter a number: ");
     scanf("%d", &n);
 
+    printf("\nSum of digits is = ");
+
     while (n != 0)
     {
         digit = n % 10;
+        printf("%d + ", digit);
         sum = sum + digit;
         n = n / 10;
     }
 
-    printf("Sum of digits is = %d", sum);
+    printf("\b\b= %d", sum);
 
     getch();
 }
