@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <conio.h>
 
-int main()
+void main()
 {
     int n, i, j, a[100];
 
@@ -21,5 +21,5 @@ int main()
         printf("%d", a[j]);
     }
 
-    return 0;
+    getch();
 }
