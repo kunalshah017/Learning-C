@@ -8,7 +8,7 @@ void main()
     {
         if (u % 2 == 0)
         {
-            printf("%d\n", u);
+            printf("%d ", u);
         }
         u++;
     } while (u <= 80);
