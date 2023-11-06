@@ -23,4 +23,6 @@ void main()
     scanf("%d", &u);
 
     fibo(u);
+
+    getch();
 }

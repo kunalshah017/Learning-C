@@ -23,4 +23,5 @@ void main()
     max = findmax(a, b);
 
     printf("The maximum value is %d", max);
+    getch();
 }
