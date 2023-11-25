@@ -1,22 +1,40 @@
-#include <stdio.h>
 #include <conio.h>
+#include <stdio.h>
 #include <string.h>
 
-int main()
+void main()
 {
     char user_input[100];
 
-    printf("Enter a long string: ");
+    printf("Enter a Long String : ");
     gets(user_input);
 
-    int length = strlen(user_input);
+    int lb = strlen(user_input) - 1, ub = strlen(user_input) - 1;
 
-    for (int i = length - 1; i >= 0; i--)
+    printf("Reversed String (words): \n");
+
+    while (lb <= ub)
     {
-        printf("%c", user_input[i]);
+        if (lb == 0)
+        {
+            for (int c = lb; c <= ub; c++)
+            {
+                printf("%c", user_input[c]);
+            }
+            break;
+        }
+
+        if (user_input[lb] == ' ')
+        {
+            for (int c = lb + 1; c <= ub; c++)
+            {
+                printf("%c", user_input[c]);
+            }
+            printf(" ");
+            ub = lb - 1;
+        }
+        lb--;
     }
 
     getch();
-
-    return 0;
 }
