@@ -46,7 +46,7 @@ int main()
 
 <br>
 
-<a href="Data_Types.md">
+<a href="2-Data_Types.md">
 <img src="../Assets/Next.png" height=45 align=right>
 </a>
 
