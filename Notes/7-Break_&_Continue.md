@@ -1,0 +1,53 @@
+### Break Statement
+
+- `break` statement is used to terminate the loop.
+- `break` statement is used inside `switch` statement & loops.
+- it exits the loop & executes the next statement after the loop.
+
+#### Syntax
+
+```c
+break;
+```
+
+### Continue Statement
+
+- `continue` statement is used to skip the current iteration & continue with the next iteration.
+- `continue` statement is used inside loops.
+
+#### Syntax
+
+```c
+continue;
+```
+
+### Example
+
+```c
+#include<stdio.h>
+
+int main() {
+    int i;
+
+    // Using break statement
+    printf("Using break statement:\n");
+    for (i = 1; i <= 5; i++) {
+        if (i == 3) {
+            break;
+        }
+        printf("%d\n", i);
+    }
+
+    // Using continue statement
+    printf("\nUsing continue statement:\n");
+    for (i = 1; i <= 5; i++) {
+        if (i == 3) {
+            continue;
+        }
+        printf("%d\n", i);
+    }
+
+    return 0;
+}
+```
+

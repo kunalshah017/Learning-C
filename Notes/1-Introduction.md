@@ -44,6 +44,20 @@ int main()
   
 ---
 
+### Comments in `C`
+
+- Comments are used to make code more readable & understandable.
+- Comments are not executed by the compiler.
+
+```c
+// This is a single line comment
+
+/* This is a
+   multi line
+   comment */
+```
+---
+
 <br>
 
 <a href="2-Data_Types.md">
