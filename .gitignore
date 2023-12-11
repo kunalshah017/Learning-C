@@ -1,6 +1,7 @@
 # My Changes 
 *.ini
 .vscode
+.obsidian
 
 # Prerequisites
 *.d

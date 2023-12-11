@@ -56,15 +56,11 @@ int main()
    multi line
    comment */
 ```
----
-
 <br>
+<hr>
 
-<a href="2-Data_Types.md">
+<a href="2-Data_Types_&_Variablesmd">
 <img src="../Assets/Next.png" height=45 align=right>
 </a>
 
-
-
-
-
+<hr>
